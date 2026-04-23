@@ -1,0 +1,19 @@
+# Ce fichier configure l'analyseur statique du code Dart
+# (erreurs, avertissements et règles de style).
+#
+# Les résultats s'affichent dans l'IDE ou via la commande `flutter analyze`.
+
+# Active un ensemble de règles recommandées pour les applications Flutter.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # Les règles peuvent être personnalisées ci-dessous (désactiver ou en ajouter).
+  # Liste des lints : https://dart.dev/lints
+  #
+  # Pour ignorer une règle sur une ligne : `// ignore: nom_du_lint`
+  # Pour un fichier entier : `// ignore_for_file: nom_du_lint`
+  rules:
+    # avoid_print: false  # Décommenter pour désactiver `avoid_print`
+    # prefer_single_quotes: true  # Décommenter pour activer `prefer_single_quotes`
+
+# Documentation : https://dart.dev/guides/language/analysis-options
